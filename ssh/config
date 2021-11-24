@@ -1,0 +1,38 @@
+IdentityFile ~/.ssh/newpriv
+AddKeysToAgent yes
+
+Host jupiter
+    User tcarroll
+    Hostname 192.168.0.70
+    Port 2222
+
+Host vps
+    User tcarroll
+    Hostname unclelee.ch
+
+Host terra
+    User tcarroll
+    Hostname 192.168.1.61
+    port 222
+
+Host pi
+    User pi
+    Hostname 192.168.0.38
+
+Host remote-access
+    HostName remote-access.leeds.ac.uk
+    User "ll16t3c"
+
+Host comp-pc*
+    ProxyCommand  ssh remote-access nc %h %p
+    User "ll16t3c"
+
+Host remarkable
+    Hostname 10.11.99.1
+    User root
+    StrictHostKeyChecking no
+
+Host gitlab-school
+    Hostname gitlab.com
+    User ll16t3c
+    IdentityFile ~/.ssh/ll16t3cgitlab
