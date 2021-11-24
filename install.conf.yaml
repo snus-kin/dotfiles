@@ -5,11 +5,8 @@
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
     ~/.gitconfig: gitconfig
-    ~/.ssh/config:
-        path: ssh/config
-        create: true
     ~/.config/nvim/init.vim: init.vim 
-    ~/.config/alacritty/alacritty/alacritty.yml: alacritty.yml
+    ~/.config/alacritty/alacritty.yml: alacritty.yml
     ~/.config/newsboat/config: 
         path: newsboat/config
         create: true

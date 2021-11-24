@@ -1,6 +1,7 @@
 [user]
 	name = snus-kin
-	email = ll16t3c@leeds.ac.uk
+	email = tcarroll@snufk.in
+	name = Thomas Carroll
 
 [merge]
   tool = vimdiff
