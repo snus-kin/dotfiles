@@ -13,3 +13,4 @@
     ~/.config/newsboat/urls: 
         path: newsboat/urls
         create: true
+    ~/.config/sxhkd/sxhkdrc: sxhkdrc
