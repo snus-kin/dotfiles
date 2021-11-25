@@ -1,0 +1,1 @@
+Plug 'soli/prolog-vim'
