@@ -65,37 +65,38 @@ inoremap jk <esc>
 nnoremap <silent> <C-p> :FZF<CR>
 " -----------------------------------
 "
-" Plugins 
+" Plugins
 "
 " -----------------------------------
 call plug#begin('~/.local/share/nvim/plugged')
-    source ~/.config/nvim/plugin/vim-commentary.vim
-    source ~/.config/nvim/plugin/editorconfig.vim
-    source ~/.config/nvim/plugin/vim-visual-increment.vim
-    source ~/.config/nvim/plugin/vimtex.vim
-    source ~/.config/nvim/plugin/vim-text-fold.vim
-    source ~/.config/nvim/plugin/vim-grammarous.vim
-    source ~/.config/nvim/plugin/nerdtree.vim
-    source ~/.config/nvim/plugin/fzf.vim
-    source ~/.config/nvim/plugin/YouCompleteMe.vim
-    source ~/.config/nvim/plugin/nim.vim
-    source ~/.config/nvim/plugin/vim-wordy.vim
-    source ~/.config/nvim/plugin/gruvbox.vim
+    source ~/.config/nvim/plugin/simpylfold.vim
+    source ~/.config/nvim/plugin/youcompleteme.vim
     source ~/.config/nvim/plugin/ale.vim
-    source ~/.config/nvim/plugin/utl.vim
-    source ~/.config/nvim/plugin/indentLine.vim
-    source ~/.config/nvim/plugin/SimpylFold.vim
+    source ~/.config/nvim/plugin/commentary.vim
+    source ~/.config/nvim/plugin/editorconfig.vim
     source ~/.config/nvim/plugin/fugitive.vim
-    source ~/.config/nvim/plugin/python-mode.vim
+    source ~/.config/nvim/plugin/fzf.vim
+    source ~/.config/nvim/plugin/grammarous.vim
+    source ~/.config/nvim/plugin/gruvbox.vim
+    source ~/.config/nvim/plugin/indentLine.vim
+    source ~/.config/nvim/plugin/nerdtree.vim
+    source ~/.config/nvim/plugin/nim.vim
     source ~/.config/nvim/plugin/p9.vim
-    source ~/.config/nvim/plugin/prolog.vim
-    source ~/.config/nvim/plugin/vimtest.vim
     source ~/.config/nvim/plugin/polyglot.vim
+    source ~/.config/nvim/plugin/prolog.vim
+    source ~/.config/nvim/plugin/python-mode.vim
+    source ~/.config/nvim/plugin/surround.vim
+    source ~/.config/nvim/plugin/test.vim
+    source ~/.config/nvim/plugin/tex.vim
+    source ~/.config/nvim/plugin/text-fold.vim
+    source ~/.config/nvim/plugin/utl.vim
+    source ~/.config/nvim/plugin/visual-increment.vim
+    source ~/.config/nvim/plugin/wordy.vim
 call plug#end()
 
 " -----------------------------------
 "
-" Filetypes 
+" Filetypes
 "
 " -----------------------------------
 

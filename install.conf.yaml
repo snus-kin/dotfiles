@@ -8,6 +8,7 @@
     ~/.config/nvim/init.vim: init.vim 
     ~/.config/nvim/plugin:
       glob: true
+      create: true
       path: nvim-plugins/*
     ~/.config/alacritty/alacritty.yml: alacritty.yml
     ~/.config/newsboat/config: 
