@@ -68,9 +68,11 @@ nmap <silent> t<C-s> :TestSuite<CR>
 nmap <silent> t<C-l> :TestLast<CR>
 nmap <silent> t<C-g> :TestVisit<CR>
 
-
 " jk to escape (faster?)
 inoremap jk <esc>
+
+" fuzzy find on control p
+nnoremap <silent> <C-p> :FZF<CR>
 " -----------------------------------
 "
 " Plugins 
@@ -83,7 +85,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'matze/vim-tex-fold', { 'for': ['tex', 'plaintex'] }
     Plug 'rhysd/vim-grammarous'
     Plug 'scrooloose/nerdtree'
-    Plug 'kien/ctrlp.vim'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'Valloric/YouCompleteMe'
     Plug 'alaviss/nim.nvim', { 'for': 'nim' }
     Plug 'reedes/vim-wordy'
@@ -100,6 +102,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     Plug 'funorpain/vim-cpplint', { 'for': 'cpp' }
     Plug 'snus-kin/p9.vim'
     Plug 'soli/prolog-vim'
+    Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
 " Colour Scheme
