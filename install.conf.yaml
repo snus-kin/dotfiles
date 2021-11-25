@@ -6,6 +6,9 @@
     ~/.bash_logout: bash_logout
     ~/.gitconfig: gitconfig
     ~/.config/nvim/init.vim: init.vim 
+    ~/.config/nvim/plugin:
+      glob: true
+      path: nvim-plugins/*
     ~/.config/alacritty/alacritty.yml: alacritty.yml
     ~/.config/newsboat/config: 
         path: newsboat/config
