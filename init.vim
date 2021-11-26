@@ -69,8 +69,6 @@ nnoremap <silent> <C-p> :FZF<CR>
 "
 " -----------------------------------
 call plug#begin('~/.local/share/nvim/plugged')
-    source ~/.config/nvim/plugin/simpylfold.vim
-    source ~/.config/nvim/plugin/youcompleteme.vim
     source ~/.config/nvim/plugin/ale.vim
     source ~/.config/nvim/plugin/commentary.vim
     source ~/.config/nvim/plugin/editorconfig.vim
@@ -85,6 +83,8 @@ call plug#begin('~/.local/share/nvim/plugged')
     source ~/.config/nvim/plugin/polyglot.vim
     source ~/.config/nvim/plugin/prolog.vim
     source ~/.config/nvim/plugin/python-mode.vim
+    source ~/.config/nvim/plugin/repeat.vim
+    source ~/.config/nvim/plugin/simpylfold.vim
     source ~/.config/nvim/plugin/surround.vim
     source ~/.config/nvim/plugin/test.vim
     source ~/.config/nvim/plugin/tex.vim
@@ -92,6 +92,8 @@ call plug#begin('~/.local/share/nvim/plugged')
     source ~/.config/nvim/plugin/utl.vim
     source ~/.config/nvim/plugin/visual-increment.vim
     source ~/.config/nvim/plugin/wordy.vim
+    source ~/.config/nvim/plugin/youcompleteme.vim
+    source ~/.config/nvim/plugin/gitignore-grabber.vim
 call plug#end()
 
 " -----------------------------------
