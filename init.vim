@@ -15,6 +15,7 @@ set ignorecase
 set autoindent
 set smartindent
 set smarttab
+set wrap
 
 set list
 set listchars=tab:▸\ ,trail:·
@@ -48,6 +49,10 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" wrapped lines
+nnoremap <expr> j v:count ? 'j' : 'gj'
+nnoremap <expr> k v:count ? 'k' : 'gk'
 
 " unfold on space
 nnoremap <space> za
@@ -94,6 +99,8 @@ call plug#begin('~/.local/share/nvim/plugged')
     source ~/.config/nvim/plugin/wordy.vim
     source ~/.config/nvim/plugin/youcompleteme.vim
     source ~/.config/nvim/plugin/gitignore-grabber.vim
+    source ~/.config/nvim/plugin/airlatex.vim
+    source ~/.config/nvim/plugin/firenvim.vim
 call plug#end()
 
 " -----------------------------------
