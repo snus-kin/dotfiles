@@ -100,7 +100,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     source ~/.config/nvim/plugin/youcompleteme.vim
     source ~/.config/nvim/plugin/gitignore-grabber.vim
     source ~/.config/nvim/plugin/airlatex.vim
-    source ~/.config/nvim/plugin/firenvim.vim
+    " source ~/.config/nvim/plugin/firenvim.vim
 call plug#end()
 
 " -----------------------------------
