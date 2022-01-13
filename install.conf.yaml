@@ -1,8 +1,10 @@
 - clean: ['~']
 
+- defaults:
+    relink: true
+    force: true
+
 - link:
-    default:
-        force: true
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
