@@ -1,8 +1,9 @@
 - clean: ['~']
 
 - defaults:
-    relink: true
-    force: true
+    link:
+        relink: true
+        force: true
 
 - link:
     ~/.bash_profile: bash_profile
