@@ -1,18 +1,15 @@
 font:
   normal:
-    family: Hack 
+    family: SF Mono
     style: Regular
 
   bold:
-    family: Hack 
     style: Bold
 
   italic:
-    family: Hack 
     style: Italic
 
   bold_italic:
-    family: Hack 
     style: Bold Italic
 
   size: 11
@@ -21,9 +18,8 @@ font:
 colors:
   # Default colors
   primary:
-    # hard contrast: background = '0x1d2021'
-    background: '0x282828'
-    # soft contrast: background = '0x32302f'
+    # hard contrast
+    background: '0x1d2021'
     foreground: '0xebdbb2'
 
   # Normal colors
