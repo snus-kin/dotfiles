@@ -15,6 +15,7 @@ set ignorecase
 set autoindent
 set smartindent
 set smarttab
+set wrap
 
 set list
 set listchars=tab:▸\ ,trail:·
@@ -49,6 +50,10 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" wrapped lines
+nnoremap <expr> j v:count ? 'j' : 'gj'
+nnoremap <expr> k v:count ? 'k' : 'gk'
+
 " unfold on space
 nnoremap <space> za
 
@@ -68,6 +73,14 @@ nnoremap <silent> <C-p> :FZF<CR>
 " Plugins
 "
 " -----------------------------------
+
+" install plug
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
 call plug#begin('~/.local/share/nvim/plugged')
     source ~/.config/nvim/plugin/ale.vim
     source ~/.config/nvim/plugin/commentary.vim
@@ -94,6 +107,8 @@ call plug#begin('~/.local/share/nvim/plugged')
     source ~/.config/nvim/plugin/visual-increment.vim
     source ~/.config/nvim/plugin/wordy.vim
     source ~/.config/nvim/plugin/youcompleteme.vim
+    source ~/.config/nvim/plugin/gitignore-grabber.vim
+    source ~/.config/nvim/plugin/airlatex.vim
 call plug#end()
 
 " -----------------------------------

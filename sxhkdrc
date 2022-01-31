@@ -154,7 +154,7 @@ alt + t
 
 # float a vim pad
 super + v
-    alacritty -name vimfloat -e vim
+    alacritty -e neovim
 
 # launch a newsboat
 super + n
