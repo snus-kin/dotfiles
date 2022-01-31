@@ -22,6 +22,7 @@ export PS1="\[$(tput sgr0)\]\[\033[38;5;7m\]\w\[$(tput sgr0)\]\[\033[38;5;12m\] 
 [ -e "$DIR_COLORS" ] || DIR_COLORS=""
 eval "`dircolors -b $DIR_COLORS`"
 
+export _JAVA_AWT_WM_NONREPARENTING=1
 export PATH=$PATH:/home/tcarroll/.bin:/home/tcarroll/.local/bin:/home/tcarroll/.gem/ruby/2.6.0/bin
 export PATH=/home/tcarroll/.nimble/bin:$PATH
 export PATH="/home/tcarroll/.pyenv/bin:$PATH"
