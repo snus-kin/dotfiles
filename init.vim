@@ -87,6 +87,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     source ~/.config/nvim/plugin/editorconfig.vim
     source ~/.config/nvim/plugin/fugitive.vim
     source ~/.config/nvim/plugin/fzf.vim
+    source ~/.config/nvim/plugin/gitignore-grabber.vim
     source ~/.config/nvim/plugin/grammarous.vim
     source ~/.config/nvim/plugin/gruvbox.vim
     source ~/.config/nvim/plugin/indentLine.vim
@@ -108,7 +109,6 @@ call plug#begin('~/.local/share/nvim/plugged')
     source ~/.config/nvim/plugin/youcompleteme.vim
     source ~/.config/nvim/plugin/gitignore-grabber.vim
     source ~/.config/nvim/plugin/airlatex.vim
-    " source ~/.config/nvim/plugin/firenvim.vim
 call plug#end()
 
 " -----------------------------------
