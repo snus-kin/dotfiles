@@ -1,5 +1,6 @@
 "--- Unread ---"
 "query:Unread Articles:unread = \"yes\"" "~Unread Articles"
+"query:Youtube Subscriptions:(unread = \"yes\" and tags # \"youtube\")" "~Unwatched Youtube"
 
 "--- Blogs ---"
 https://snufk.in/blog/rss.xml "~My Own Blog" random
@@ -16,7 +17,9 @@ https://beyondgreenspace.net/feed/
 
 "--- Tech ---"
 https://www.archlinux.org/feeds/news/ tech
-https://hnrss.org/frontpage tech
+https://hnrss.org/best tech
+https://raw.githubusercontent.com/PsypherPunk/python-version-rss-rs/main/release.rss tech
+https://nedbatchelder.com/blog/rss.xml tech
 
 "--- Music ---"
 https://thequietus.com/feed music
@@ -25,7 +28,16 @@ https://www.fondsound.com/feed music
 https://www.martinradio.com/rss.xml music
 https://okonkole-y-trompa.com/feed music
 
+"--- Comics ---"
+https://xkcd.com/rss.xml comics
+
 "--- Youtube ---"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVhQ2NnY5Rskt6UjCUkJ_DA youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC46xhU1EH7aywEgvA9syS3w youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC0intLFzLaudFG-xAvUEO-A youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCaiL2GDNpLYH6Wokkk1VNcg youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJZTjBlrnDHYmf0F-eYXA3Q youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC3azLjQuz9s5qk76KEXaTvA youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UC_QIfHvN9auy2CoOdSfMWDw youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCu7_D0o48KbfhpEohoP7YSQ youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCoydhtfFSk1fZXNRnkGnneQ youtube
